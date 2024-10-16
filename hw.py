@@ -21,7 +21,7 @@ class EquationSolver:
         return (a + b) / 2
 
 equations = [
-    (lambda x: x - 1.25 * math.log(x) - 1.25, 2.2, 2.4),  # 1. x – 1.25ln(x) – 1.25 = 0 (2.2;2.4)
+    (lambda x: x - 1.25 * math.log(x) - 1.25, 2.6, 2.4),  # 1. x – 1.25ln(x) – 1.25 = 0 (2.2;2.4)
     (lambda x: x**2 - 5 * math.sin(x), 1.57, 3.14),       # 2. x^2 – 5sin(x) = 0 (1.57;3.14)
     (lambda x: math.exp(x) - 10 * x, 0, 1),               # 3. e^x – 10x = 0 (0;1)
     (lambda x: 0.1 * x**2 - x * math.log(x), 1, 2),       # 4. 0.1x^2 – x ln(x) = 0 (1;2)

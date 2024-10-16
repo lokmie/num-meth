@@ -64,3 +64,11 @@ for i, (equation, a, b) in enumerate(equations, start=1):
 print("----------------------------------\n\n")
 
 ```
+
+## вывод
+
+<img src="normal.png" />
+
+### вывод с ошибкой
+
+<img src="bad.png" />
